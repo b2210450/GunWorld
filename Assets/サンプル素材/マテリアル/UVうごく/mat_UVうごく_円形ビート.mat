@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "mat_UV\u3046\u3054\u304F_\u5186\u5F62\u30D3\u30FC\u30C8"
+  m_Shader: {fileID: 4800000, guid: 9554fa618d1ac3e44850c9439c2a678f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d02d63e13b09ff141941a6043537e3eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BeatLength: 0.1
+    - _ChangingSpeed: 6
+    - _ColorTimes: 3.06
+    - _CullMode: 0
+    - _RingSpeed: 2
+    - _Speed: 12
+    - _Threshold: 0.444
+    - _UseSine: 0
+    - _UseSineTime: 1
+    - _VertexLength: 0.3
+    m_Colors: []

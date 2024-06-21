@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "mat_\u5C0F\u7269_\u30AB\u30F3\u30BF\u30F3\u306A\u6C34A"
+  m_Shader: {fileID: 4800000, guid: d2d99b90cedfcbd43ba96d3f15b6d0d5, type: 3}
+  m_ShaderKeywords: _LINETYPE_VERTICAL
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: f44260880a20b5340a5c218172c6b302, type: 3}
+        m_Scale: {x: 6, y: 6}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EnvironmentLightWeight: 0.2
+    - _LineType: 0
+    - _SpecularAperture: 5
+    - _Speed: 0.05
+    - _WaveScale: 0.04
+    m_Colors:
+    - _Color: {r: 0.26032397, g: 0.80207115, b: 0.8490566, a: 0.4745098}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}

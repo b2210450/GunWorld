@@ -1,0 +1,350 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    ClusterVR.CreatorKit.Editor.dll:
+    - ClusterVR.CreatorKit.Editor.Builder.BuiltAssetBundlePaths
+    - ClusterVR.CreatorKit.Editor.Window.View.VenueUploadWindow
+    ClusterVR.CreatorKit.Gimmick.Implements.dll:
+    - ClusterVR.CreatorKit.Gimmick.Implements.AddInstantForceItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.CreateItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.DestroyItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.PlayAudioSourceGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.SetTextGimmick
+    ClusterVR.CreatorKit.Item.Implements.dll:
+    - ClusterVR.CreatorKit.Item.Implements.GrabbableItem
+    - ClusterVR.CreatorKit.Item.Implements.Item
+    - ClusterVR.CreatorKit.Item.Implements.MovableItem
+    ClusterVR.CreatorKit.Operation.Implements.dll:
+    - ClusterVR.CreatorKit.Operation.Implements.GlobalLogic
+    - ClusterVR.CreatorKit.Operation.Implements.GlobalTimer
+    ClusterVR.CreatorKit.Preview.dll:
+    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
+    ClusterVR.CreatorKit.Trigger.Implements.dll:
+    - ClusterVR.CreatorKit.Trigger.Implements.InteractItemTrigger
+    - ClusterVR.CreatorKit.Trigger.Implements.OnCollideItemTrigger
+    - ClusterVR.CreatorKit.Trigger.Implements.OnCreateItemTrigger
+    - ClusterVR.CreatorKit.Trigger.Implements.UseItemTrigger
+    ClusterVR.CreatorKit.World.Implements.dll:
+    - ClusterVR.CreatorKit.World.Implements.DespawnHeights.DespawnHeight
+    - ClusterVR.CreatorKit.World.Implements.SpawnPoints.SpawnPoint
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.ProBuilder.dll:
+    - UnityEngine.ProBuilder.ProBuilderMesh
+    - UnityEngine.ProBuilder.Shapes.ProBuilderShape
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
+  serializedClasses:
+    ClusterVR.CreatorKit.Gimmick.Implements:
+    - ClusterVR.CreatorKit.Gimmick.Implements.GimmickKey
+    - ClusterVR.CreatorKit.Gimmick.Implements.GlobalGimmickKey
+    ClusterVR.CreatorKit.Item:
+    - ClusterVR.CreatorKit.Item.ItemId
+    - ClusterVR.CreatorKit.Item.ItemTemplateId
+    ClusterVR.CreatorKit.Operation:
+    - ClusterVR.CreatorKit.Operation.ConstantValue
+    - ClusterVR.CreatorKit.Operation.Expression
+    - ClusterVR.CreatorKit.Operation.Logic
+    - ClusterVR.CreatorKit.Operation.OperatorExpression
+    - ClusterVR.CreatorKit.Operation.SingleStatement
+    - ClusterVR.CreatorKit.Operation.SourceState
+    - ClusterVR.CreatorKit.Operation.Statement
+    - ClusterVR.CreatorKit.Operation.TargetState
+    - ClusterVR.CreatorKit.Operation.Value
+    ClusterVR.CreatorKit.Trigger.Implements:
+    - ClusterVR.CreatorKit.Trigger.Implements.ConstantTriggerParam
+    - ClusterVR.CreatorKit.Trigger.Implements.Value
+    Unity.Postprocessing.Runtime:
+    - UnityEngine.Rendering.PostProcessing.BoolParameter
+    - UnityEngine.Rendering.PostProcessing.ColorParameter
+    - UnityEngine.Rendering.PostProcessing.FloatParameter
+    - UnityEngine.Rendering.PostProcessing.GradingModeParameter
+    - UnityEngine.Rendering.PostProcessing.Spline
+    - UnityEngine.Rendering.PostProcessing.SplineParameter
+    - UnityEngine.Rendering.PostProcessing.TextureParameter
+    - UnityEngine.Rendering.PostProcessing.TonemapperParameter
+    - UnityEngine.Rendering.PostProcessing.Vector2Parameter
+    - UnityEngine.Rendering.PostProcessing.Vector4Parameter
+    - UnityEngine.Rendering.PostProcessing.VignetteModeParameter
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.PersistentCallGroup
+    UnityEngine.UI:
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/venue_70da3c645845d65bfe01d46a8f.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1656}
+    - Class: 114
+      Script: {instanceID: 1782}
+    - Class: 114
+      Script: {instanceID: 1826}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 2030}
+    - Class: 114
+      Script: {instanceID: 2140}
+    - Class: 114
+      Script: {instanceID: 2502}
+    - Class: 114
+      Script: {instanceID: 2708}
+    - Class: 114
+      Script: {instanceID: 2920}
+    - Class: 114
+      Script: {instanceID: 2956}
+    - Class: 114
+      Script: {instanceID: 3038}
+    - Class: 114
+      Script: {instanceID: 3368}
+    - Class: 114
+      Script: {instanceID: 3434}
+    - Class: 114
+      Script: {instanceID: 3536}
+    - Class: 114
+      Script: {instanceID: 3578}
+    - Class: 114
+      Script: {instanceID: 3660}
+    - Class: 114
+      Script: {instanceID: 3954}
+    - Class: 114
+      Script: {instanceID: 4146}
+    - Class: 114
+      Script: {instanceID: 4380}
+    - Class: 114
+      Script: {instanceID: 4524}
+    - Class: 114
+      Script: {instanceID: 4546}
+    - Class: 114
+      Script: {instanceID: 4878}
+    - Class: 114
+      Script: {instanceID: 4932}
+    - Class: 114
+      Script: {instanceID: 5280}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: cfba51718440c804bd57c12f8191d23d
+    assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Trigger.Implements
+    className: InteractItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 1dea55923c43b620f599d267d88b1064
+    assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Trigger.Implements
+    className: UseItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: abfad139c943f621e0e92813edfd3e28
+    assemblyName: ClusterVR.CreatorKit.Operation.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Operation.Implements
+    className: GlobalLogic
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 82b5da3dd031591dcfdada3c2150a8ae
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: AddInstantForceItemGimmick
+  - hash:
+      serializedVersion: 2
+      Hash: cfba51718440c804bd57c12f8191d23d
+    assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Trigger.Implements
+    className: OnCreateItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 2727a671d76bf67ac7c72d59a7b316c9
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: SetTextGimmick
+  - hash:
+      serializedVersion: 2
+      Hash: 5a7898259f87aadf406644eb5c3ef9fb
+    assemblyName: ClusterVR.CreatorKit.World.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.World.Implements.SpawnPoints
+    className: SpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9715498937eb70e5ac297fb5fd7cbe8e
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: MovableItem
+  - hash:
+      serializedVersion: 2
+      Hash: 94149ed921209b6968c56c474f965f5e
+    assemblyName: ClusterVR.CreatorKit.Operation.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Operation.Implements
+    className: GlobalTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 587b0c897d6f69ba7c9c6a07bb08967f
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: DestroyItemGimmick
+  - hash:
+      serializedVersion: 2
+      Hash: 83f59e284f6f2f61efc09d17f8dd5e2d
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: PlayAudioSourceGimmick
+  - hash:
+      serializedVersion: 2
+      Hash: 8d446a7ef97628b169c49a77bb6e87df
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: GrabbableItem
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 65aa9c76ebc90f987df6729d23699aa8
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: Item
+  - hash:
+      serializedVersion: 2
+      Hash: 0133b47dbc333250e5b86c11d087eb2e
+    assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Trigger.Implements
+    className: OnCollideItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 603f39814510fdc6974942045808e86b
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: CreateItemGimmick
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ClusterVR.CreatorKit.World.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.World.Implements.DespawnHeights
+    className: DespawnHeight
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  platform: 5
+  scenePathNames:
+  - Assets/venue_70da3c645845d65bfe01d46a8f.unity
+  playerPath: C:/Users/ken3a/AppData/Local/Temp/DefaultCompany/Cluster Creator Kit
+    Template/StandaloneWindows/venue_70da3c645845d65bfe01d46a8f
